@@ -1,5 +1,5 @@
 #!/bin/bash
-HERE="$HOME/git/homefiles"
+HERE="$(realpath $(dirname "$0"))"
 CONFDIR="$HOME/.config"
 BINDIR="$HOME/.local/bin"
 
