@@ -13,6 +13,7 @@ link_dotfiles () {
 	ln -sf "$HERE/dotfiles/bash/bashrc" "$HOME/.bashrc"
 	ln -sf "$HERE/dotfiles/bash/bash_profile" "$HOME/.bash_profile"
 	ln -sf "$HERE/dotfiles/sxhkd" "$CONFDIR/"
+	ln -sf "$HERE/dotfiles/lxpanel" "$CONFDIR/"
 	ln -sf "$HERE/dotfiles/tmux" "$CONFDIR/"
 
 	for file in $HERE/dotfiles/vifm/*
@@ -37,6 +38,8 @@ link_scripts () {
 remove_conflicts () {
     rm -rf "$CONFDIR/vifm"
     rm -rf "$CONFDIR/nvim"
+    rm -rf "$CONFDIR/shhkd"
+    rm -rf "$CONFDIR/lxpanel"
 }
 
 termux_stuff () {
