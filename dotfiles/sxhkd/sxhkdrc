@@ -7,6 +7,9 @@ super + shift + s
 super + Return
 	$TERMINAL
 
+super + ctrl + q
+    logout-wm
+
 # Open terminal with dvtm
 super + Shift_R
 	$TERMINAL -e tmux new-session -A

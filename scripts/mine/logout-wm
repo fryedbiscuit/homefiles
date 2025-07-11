@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xdotool windowkill $(xprop -root _NET_SUPPORTING_WM_CHECK | awk '{print $5}')
