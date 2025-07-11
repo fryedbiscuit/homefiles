@@ -7,6 +7,8 @@ super + shift + s
 super + Return
 	$TERMINAL
 
+# Kill window manager
+
 super + ctrl + q
     logout-wm
 
@@ -30,9 +32,12 @@ Scroll_Lock
 #super + shift + f
 #	xdotool getwindowfocus windowstate --toggle FULLSCREEN
 
+
+# Close current window
+    xdotool getwindowfocus windowquit
+
 # Force kill current program
 super + shift + q
-	# kill -9 $(xdo pid)
     kill -9 `xdotool getwindowfocus getwindowpid`
 
 # Control audio volume
