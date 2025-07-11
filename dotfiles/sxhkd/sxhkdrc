@@ -34,6 +34,7 @@ Scroll_Lock
 
 
 # Close current window
+super + q
     xdotool getwindowfocus windowquit
 
 # Force kill current program
