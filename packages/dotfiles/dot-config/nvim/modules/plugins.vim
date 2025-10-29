@@ -1,6 +1,9 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " Plugins
+	Plug 'junegunn/fzf'
+	Plug 'junegunn/fzf.vim'
+	Plug 'jamessan/vim-gnupg'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'tpope/vim-commentary'
@@ -9,9 +12,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-eunuch'
 	Plug 'airblade/vim-gitgutter'
 	Plug 'vimwiki/vimwiki'
-	Plug 'junegunn/fzf'
-	Plug 'junegunn/fzf.vim'
-	Plug 'jamessan/vim-gnupg'
 	" Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 	Plug 'mattn/emmet-vim'
 	" Plug 'mattn/calendar-vim'
