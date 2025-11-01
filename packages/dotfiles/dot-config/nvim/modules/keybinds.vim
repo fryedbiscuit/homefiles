@@ -28,9 +28,10 @@
 	nnoremap <leader>cf gg:.,$!rustfmt<cr><cr>
 
 " Make
-	nnoremap <leader>mm :w<cr>:!make<cr><cr>
-	nnoremap <leader>mi :w<cr>:!sudo make install<cr><cr>
+	nnoremap <leader>mm :w<cr>:!make<cr>
 	nnoremap <leader>mc :w<cr>:!make clean<cr><cr>
+	nnoremap <leader>mr :w<cr>:!make run<cr>
+	nnoremap <leader>mi :w<cr>:!sudo make install<cr><cr>
 	nnoremap <leader>mu :w<cr>:!sudo make uninstall<cr><cr>
 
 " Emmet-vim
