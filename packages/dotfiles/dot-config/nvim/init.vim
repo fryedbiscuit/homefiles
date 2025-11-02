@@ -71,6 +71,7 @@ endif
 	autocmd BufNewFile,BufRead *.json5 set filetype=jsonc
 	autocmd BufNewFile,BufRead *.by set syntax=python
 	autocmd BufNewFile,BufRead vifmrc set filetype=vim
+	autocmd BufNewFile,BufRead .xinitrc set filetype=bash
 
 "	# Disable newline comment
 	autocmd FileType * setlocal formatoptions-=c
